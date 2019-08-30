@@ -1,0 +1,33 @@
+{
+  "name": "craft/craftAWS",
+  "description": "Embed AWS to the backend",
+  "version": "1.0.0",
+  "type": "craft-plugin",
+  "keywords": ["craftaws", "embedaws", "craftplugin"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "W3care-AB",
+      "homepage": "https://www.w3care.com/"
+    }
+  ],
+  "support": {
+    "email": "support@w3care.com",
+    "issues": "https://github.com/abhijeetbhushan/craftaws/issues?state=open",
+    "source": "https://github.com/abhijeetbhushan/craftaws",
+    "docs": "https://github.com/abhijeetbhushan/craftaws/blob/master/README.md"
+  },
+  "require": {
+    "craftcms/cms": "^3.1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "craft\\aws\\": "src/"
+    }
+  },
+  "extra": {
+    "handle": "craft-aws",
+    "name": "Craft AWS",
+    "documentationUrl": "https://github.com/abhijeetbhushan/craftaws/blob/master/README.md"
+  }
+}
